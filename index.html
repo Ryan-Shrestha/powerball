@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<title>Lotto Generator</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+	<h1>PowerBall QuickPick</h1>
+<p>Powerball is Australia’s big jackpotting lottery.
+
+Powerball is a game of chance drawn from 2 barrels. 7 numbers are drawn from the main barrel (numbered from 1 to 35) and 1 Powerball number is drawn from the Powerball barrel (numbered from 1 to 20).</p>
+
+<p>A QuickPick is the easiest way to play, where the number of games you play is fixed and your numbers are randomly generated for you.</p>
+<div class = "container">
+  <div class = "left">
+		<li class = "random-number">1</li>
+		<li class = "random-number">2</li>
+		<li class = "random-number">3</li>
+		<li class = "random-number">4</li>
+		<li class = "random-number">5</li>
+		<li class = "random-number">6</li>
+		<li class = "random-number">7</li>
+		<li class = "power-ball">8</li>
+  </div>
+ 	 <button id = "generate" onClick = "getArrays()">Generate</button>
+	 <button id = "pick" onClick = "quickPick()">Pick</button>
+  <div class = "right">
+  	<table class = "table1"></table>
+  </div>
+</div>
+<script src = "script.js"></script>	
+</body>
+</html>

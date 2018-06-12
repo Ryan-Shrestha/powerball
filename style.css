@@ -1,0 +1,49 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+	
+}
+
+.container .left li {
+	background-color: black;
+  color: white;
+	height: 30px;
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+  padding: 10px;
+	padding-top: 10px;
+  border-radius: 200px;
+}
+
+.container .left .power-ball {
+	margin-left: 100px;
+	background-color: red;
+}
+
+button  {
+  font-size: 2em;
+  height: 2em;
+  width: 200px;
+  display: block;
+  margin-top: 30px;
+  float: left;
+ }
+
+#pick {
+  margin-left: 50px;
+}
+
+.table1 {
+	border: 1px solid black;
+}
+
+.table1 tr td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
